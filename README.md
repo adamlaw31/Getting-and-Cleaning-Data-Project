@@ -27,3 +27,17 @@ create a column with the activity descriptions that match the activity ID column
 
 #Step 5
 create the final tidy data set with the average of each variable, broken down by subjectID and activity description for a total of 180 values (6 activities * 30 subjects)
+
+<b>Codebook </b>
+Please refer to the original codebook for more information.
+
+New or modified variables from the original codebook
+
+activityDescription - 1 of 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+subjectID - the id of the subject (1 - 30)
+activityID - the values 1 to 6 corresponding with the activityDescription values
+
+The remaining variables are all specific measurements from the original data.  The names have been changed to be more clear, with "t" changing to "Time", "f" changing to "Frequency" and removal of parenthesis.
+
+Each numerical value is the mean over all the original data points (sensor output as a function of tiem) corresponding to one combination of subject and activity.  There are 180 combinations (30 subjects * 6 activities)
+
