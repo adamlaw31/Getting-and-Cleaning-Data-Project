@@ -28,7 +28,7 @@ create a column with the activity descriptions that match the activity ID column
 #Step 5
 create the final tidy data set with the average of each variable, broken down by subjectID and activity description for a total of 180 values (6 activities * 30 subjects)
 
-<b>Codebook </b>
+##<b>Codebook </b>
 
 
 Please refer to the original codebook for more information.
